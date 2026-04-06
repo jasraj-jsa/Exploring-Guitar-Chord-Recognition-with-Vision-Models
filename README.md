@@ -10,8 +10,6 @@ A complete **computer vision pipeline** for real-time guitar chord classificatio
 
 ---
 
-## Poster
-
 ![Poster](assets/Poster.png)
 
 ## Repository Contents
