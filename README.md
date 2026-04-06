@@ -2,7 +2,17 @@
 
 A complete **computer vision pipeline** for real-time guitar chord classification. The system detects the guitar fretboard via a Roboflow workflow, crops the region of interest, and classifies the chord using a fine-tuned **Inception-ResNet V2** model.
 
+## 🔗 Project Links
+
+- 📝 **Blog Post:** [Read the full breakdown](https://hackmd.io/@TYK1sX42RPeQsysSd9jVxg/BJf2L1hsWg)
+- 🎥 **Live Demo:** [Watch the system in action](https://drive.google.com/file/d/1ty-b1mIPJI87yHAxNZSCeTcJQATcjx7w/view?usp=drive_link)
+- 📦 **Dataset:** [Download / Explore dataset](https://www.kaggle.com/datasets/jasraj312/guitar-chords-fretboard-crop-dataset-5-classes)
+
 ---
+
+## Poster
+
+![Poster](assets/poster.png)
 
 ## Repository Contents
 
@@ -387,3 +397,14 @@ jupyter notebook "Gradcam Model Inference.ipynb"
 # 5. Run live demo
 python demo.py
 ```
+
+---
+
+## Team Contributions
+
+This project was a highly collaborative effort, with all three team members contributing equally across the entire pipeline. 
+
+* **Jasraj Anand, Nikshith Menta, and Sara Cortez** shared the dataset collection and annotation equally. 
+* Two members filmed self-recorded chord examples under various conditions to ensure dataset diversity, while all three sourced and labeled frames from YouTube videos. 
+* The model structure, training process, and ablation experiments were developed together as a unified team. 
+* The development of the live demo, inference features (including EMA smoothing and entropy rejection), and the comprehensive blog write-up were divided collaboratively among the group.
